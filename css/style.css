@@ -1,0 +1,178 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #d3d8c9;
+  background-image: url(../images/backgr.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Exo 2';
+  font-size: 14pt;
+}
+
+table {
+  margin: 0 auto;
+  width: 100%;
+  border-spacing: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu a:visited,
+.button a:visited {
+  color: #ffffff;
+}
+
+table.main-wrapper {
+  width: 800px;
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 800px;
+  height: auto;
+}
+
+.menu {
+  padding: 5px 0;
+  text-align: center;
+  background-color: #2980b9;
+  color: #ffffff;
+  font-size: 14pt;
+  text-transform: uppercase;
+}
+
+.banner {
+  display: inline-block;
+  position: relative;
+}
+
+.banner-text {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  color:  #ffffff;
+  font-size: 22pt;
+  font-style: italic;
+  background-color: rgba(41,128,185,.9);
+  padding: 15px 30px;
+}
+
+.info {
+  padding: 0 25px 10px;
+}
+
+h4,
+h5 {
+  font-style: italic;
+  color: #2980b9;
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-top: 5px;
+  font-size: 14pt;
+}
+
+.tour-header,
+.offers-header {
+  text-align: center;
+  font-size: 20pt;
+}
+
+.services,
+.check-in {
+  vertical-align: top;
+}
+
+.services {
+  width: 70%;
+}
+
+.check-in {
+  width: 30%;
+}
+
+.info-italic,
+.mail {
+  font-style: italic;
+}
+
+.button {
+  background-color: #2980b9;
+  border: none;
+  color: white;
+  padding: 5px 75px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16pt;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+.additional-offers-wrapper {
+  padding: 7px;
+  background-color: #2980b9;
+}
+
+.additional-offers {
+  border-spacing: 10px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.offers-header {
+  margin-top: 5px;
+}
+
+.additional-offers img {
+  border-radius: 15px;
+  width: 245px;
+}
+
+.title a:visited {
+  color: #2980b9;
+}
+
+.contacts-wrapper {
+  background-color: #2980b9;
+}
+
+.contacts {
+  padding: 5px 30px;
+  color: #ffffff;
+  font-size: 12pt;
+}
+
+.address {
+  font-size: 13pt;
+}
+
+.contacts-header {
+  font-weight: bold;
+}
+
+.clients,
+.agencies,
+.networks {
+  vertical-align: top;
+}
+
+.clients,
+.agencies {
+  width: 33%;
+}
+
+.networks {
+  width: 40%;
+}
